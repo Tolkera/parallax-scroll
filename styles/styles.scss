@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  height: 500px;
+  padding-top: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.scrolling {
+  position: relative;
+  height: 500px;
+
+  h1 {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+  }
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+}
+
+.clouds {
+  background: #dcddcd;
+}
+
+.clouds-upper {
+  background: url(../img/cloud_bg.png);
+  height: 67px;
+  bottom: 100%;
+}
+
+.clouds-medium {
+  background: url(../img/cloud_bg_2.png);
+  height: 100px;
+  top: 30px;
+}
+
+.clouds-lower {
+  background: url(../img/cloud_bg_3.png);
+  height: 100px;
+  top: 150px;
+}
+
+.mountains {
+  background: #a68f58;
+}
+
+.mountains-upper {
+  background: url(../img/mount_bg.png);
+  height: 67px;
+  bottom: 100%;
+}
+
+.mountains-medium {
+  background: url(../img/mount_bg_2.png);
+  height: 150px;
+  top: 0px;
+}
+
+.mountains-lower {
+  background: url(../img/mount_bg_3.png);
+  height: 150px;
+  top: 100px;
+}
+
+.waves {
+  background: #2b2b2b;
+  height: 500px;
+}
+
+.waves-upper {
+  background: url(../img/wave_dark.png);
+  height: 35px;
+  bottom: 100%;
+}
+
+.waves-medium {
+  height: 510px;
+  top: 80px;
+  background: #363637;
+
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    height: 46px;
+    background: url(../img/wave_medium.png) repeat-x;
+  }
+}
+
+.waves-lower {
+  height: 500px;
+  top: 160px;
+  background: #414042;
+
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    height: 63px;
+    background: url(../img/wave_light.png) repeat-x;
+  }
+}
+
+
+footer {
+  height: 500px;
+}
+
