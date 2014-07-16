@@ -13,5 +13,20 @@ $(function(){
         })
     })
 
+    $(window).on('mousemove', function(e){
+
+        var pageX = e.pageX;
+        var pageY = e.pageY;
+
+        $('.cat').css({
+            'margin-left': pageX/30,
+            'margin-top':  pageY/30
+        });
+
+        $('.house').css({
+            'margin-left': pageX/100,
+            'margin-top':  pageY/100
+        })
+    })
 
 });

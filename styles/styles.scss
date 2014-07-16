@@ -118,8 +118,79 @@ h1 {
   }
 }
 
-
 footer {
   height: 500px;
 }
 
+
+
+/*MOUSEMOVE*/
+
+.mousemove-parallax, {
+    height: 100%;
+
+    body {
+        height: 100%;
+    }
+}
+
+.wrap {
+    height: 100%;
+}
+
+.sky {
+    height: 30%;
+    background: #66b4e2;
+}
+
+.ground {
+    height: 70%;
+    background: #f2ddb0;
+
+}
+
+main {
+    margin: 0 auto;
+    position: relative;
+}
+
+.cat {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+
+    >img {
+        position: relative;
+        z-index: 20;
+    }
+}
+
+.ship {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    z-index: 10;
+}
+
+.shadow-img {
+    margin-top: -40px;
+}
+
+.ship-img {
+    position: relative;
+    z-index: 5;
+}
+
+
+.house {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+
+.small-house {
+    position: absolute;
+    top: -30px;
+    left: 80%;
+}
